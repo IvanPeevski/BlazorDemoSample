@@ -5,13 +5,10 @@
 <div class="container">
         <div class="text-center my-5">
             <h2>Welcome!</h2>
-            <CheckBox @ref="darkModeCheckBox" Id="darkModeCheckBox" OnChange="OnChange">Dark Mode</CheckBox>
+            <CheckBox Id="darkModeCheckBox" OnChange="OnChange" @bind-Checked="@DarkModeValue" CheckMode="CheckMode.Both">Dark Mode</CheckBox>
         </div>
         <div class="text-center my-5">
-            <h4>Requiremnets:</h4>
-            <p>First Name is required<br />
-            Email and Phone must be valid<br />
-            Country Code must be 2 or 3 characters</p>
+            <h4>Register:</h4>
         </div>
         <div class="row">
             <div class="col-md-8 mx-auto">
@@ -34,24 +31,27 @@
     @inject IJSRuntime JS
     Form form;
     CheckBox darkModeCheckBox;
+    bool DarkModeValue = true;
     private void OnChange(Event ev){
         //Smart UI Components contain a built-in dark theme.
         //It can be automatically toggled when the body has attribute 'theme' = 'dark'
-        //The easiest wat to change the attribute of the body tag is with a JS function
+        //The easiest way to change the attribute of the body tag is with a JS function
         //The JS function is contained inside _Host.cshtml
         JS.InvokeVoidAsync("toggleDarkMode");
     }
   dynamic[] firstNameRules = new dynamic[]{
-      new{type="required", message="First Name is required"}
+      new{type="required", message="First Name is mandatory"}
   };
   dynamic[] emailRules = new dynamic[]{
+      new{type="required", message="Email is mandatory"},
       new{type="email", message="Must be a valid email"}
   };
   dynamic[] phoneRules = new dynamic[]{
       new{type="phone", message="Not a valid phone number"},
-      new{type="required"}
+      new{type="required", message="Phone is mandatory"}
   };
   dynamic[] countryRules = new dynamic[]{
-      new{type="stringLength", min=2, max=3, message="Must be a valid country code"}
+      new{type="stringLength", min=2, max=3, message="Must be a valid country code"},
+      new{type="required", message="Country is mandatory"},
   };
 }

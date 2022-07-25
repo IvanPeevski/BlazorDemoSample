@@ -1,14 +1,18 @@
-﻿body[theme='dark'] {
-    background-color: #242424;
+﻿body {
+    background-color: #eef0f8;
+}
+
+body[theme='dark'] {
+    background-color: #21232d;
     color: white;
 }
 
-body[theme='dark'] .card-body{
-    background-color: #242424; 
-}
+    body[theme='dark'] .card-body {
+        background-color: var(--smart-background);
+    }
 
     body[theme='dark'] .top-row {
-        background-color: darkgray;
+        background-color: #12141d;
     }
 
 #navContainer {
@@ -19,52 +23,51 @@ nav {
     height: 100%;
 }
 
+form.smart-form {
+    width: 80% !important;
+    margin: auto;
+    padding: 20px;
+}
 
 .sidebar{
-    width: 66px !important;
+    position: relative !important;
+    left: -235px;
+    transition: 0.3s;
 }
 
 .sidebar:hover{
-    width: 300px !important;
+    left: 0px;
 }
 
-nav .smart-tree-item-label-element {
-    height: 100%;
+.sidebar-expand {
+    position: relative;
+    left: 235px;
+    top: -45px;
+    font-size: 20px;
+    padding: 13px 20px;
+    background-color: #04163d;
+    color: white;
 }
 
-    nav .smart-tree-item-label-element span {
-        width: 100%;
-        height: 100%;
-        padding: 0;
-    }
+body[theme='dark'] .sidebar-expand {
+    background-color: #12141d;
+}
 
-        nav .smart-tree-item-label-element span a {
-            display: block;
-            width: 100%;
-            height: 100%;
-        }
+#navContainer{
+    background-image: unset !important;
+    background-color: var(--smart-background)
+}
 
-.smart-tree {
-    --smart-background: #011530;
+nav .smart-tree-item-label-element span {
+    width: 100%;
 }
 
 smart-tree-items-group .smart-tree-item-label-container .smart-tree-item-label-element {
     height: 39px;
 }
 
-smart-tree-item{
+smart-tree-item a {
     text-decoration: none !important;
+    color: var(--smart-color);
 }
 
-smart-tree-items-group {
-}
-
-div.smart-tree-item-label-element{
-    color: white !important;
-
-}
-
-div.smart-tree-item-label-element a {
-     text-decoration: none !important;
-     color: white !important;
-}

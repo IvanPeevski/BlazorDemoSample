@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rAVMnyQLC1m0XKWUoCxhr6JcxK1x6DrREzcxhOL0stk=",
+  "Hash": "o5axhw6Pmpe2oBkGoEVud+ppbiOodNyyVKOqJQ+uXFE=",
   "Source": "BlazorDemoApp",
   "BasePath": "_content/BlazorDemoApp",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "BlazorDemoApp\\wwwroot",
       "Source": "BlazorDemoApp",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\",
       "BasePath": "_content/BlazorDemoApp",
       "Pattern": "**"
     }
@@ -17561,10 +17561,10 @@
       "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\smart.blazor\\14.2.18\\staticwebassets\\js\\typescript\\smart.window.d.ts"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorDemoApp.styles.css",
+      "Identity": "D:\\GitHub\\BlazorDemoSample\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorDemoApp.styles.css",
       "SourceId": "BlazorDemoApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\GitHub\\BlazorDemoSample\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorDemoApp",
       "RelativePath": "BlazorDemoApp.styles.css",
       "AssetKind": "All",
@@ -17575,13 +17575,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorDemoApp.styles.css"
+      "OriginalItemSpec": "D:\\GitHub\\BlazorDemoSample\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorDemoApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorDemoApp.bundle.scp.css",
+      "Identity": "D:\\GitHub\\BlazorDemoSample\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorDemoApp.bundle.scp.css",
       "SourceId": "BlazorDemoApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\GitHub\\BlazorDemoSample\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorDemoApp",
       "RelativePath": "BlazorDemoApp.bundle.scp.css",
       "AssetKind": "All",
@@ -17592,13 +17592,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorDemoApp.bundle.scp.css"
+      "OriginalItemSpec": "D:\\GitHub\\BlazorDemoSample\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorDemoApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\css\\app.css",
+      "Identity": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\css\\app.css",
       "SourceId": "BlazorDemoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\",
       "BasePath": "_content/BlazorDemoApp",
       "RelativePath": "css/app.css",
       "AssetKind": "All",
@@ -17612,10 +17612,10 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorDemoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\",
       "BasePath": "_content/BlazorDemoApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -17629,10 +17629,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorDemoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\",
       "BasePath": "_content/BlazorDemoApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -17646,10 +17646,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorDemoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\",
       "BasePath": "_content/BlazorDemoApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -17663,10 +17663,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorDemoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\",
       "BasePath": "_content/BlazorDemoApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -17680,10 +17680,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorDemoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\",
       "BasePath": "_content/BlazorDemoApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -17697,10 +17697,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorDemoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\",
       "BasePath": "_content/BlazorDemoApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -17714,10 +17714,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorDemoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\",
       "BasePath": "_content/BlazorDemoApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -17731,10 +17731,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorDemoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\",
       "BasePath": "_content/BlazorDemoApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -17748,10 +17748,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorDemoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\",
       "BasePath": "_content/BlazorDemoApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -17765,10 +17765,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazorDemoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\",
       "BasePath": "_content/BlazorDemoApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -17782,10 +17782,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorDemoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\",
       "BasePath": "_content/BlazorDemoApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -17799,10 +17799,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\css\\site.css",
+      "Identity": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\css\\site.css",
       "SourceId": "BlazorDemoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\",
       "BasePath": "_content/BlazorDemoApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -17816,10 +17816,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\favicon.ico",
+      "Identity": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\favicon.ico",
       "SourceId": "BlazorDemoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\BlazorDemoSample\\wwwroot\\",
       "BasePath": "_content/BlazorDemoApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
