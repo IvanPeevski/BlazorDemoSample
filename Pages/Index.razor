@@ -35,6 +35,10 @@
     Form form;
     CheckBox darkModeCheckBox;
     private void OnChange(Event ev){
+        //Smart UI Components contain a built-in dark theme.
+        //It can be automatically toggled when the body has attribute 'theme' = 'dark'
+        //The easiest wat to change the attribute of the body tag is with a JS function
+        //The JS function is contained inside _Host.cshtml
         JS.InvokeVoidAsync("toggleDarkMode");
     }
   dynamic[] firstNameRules = new dynamic[]{

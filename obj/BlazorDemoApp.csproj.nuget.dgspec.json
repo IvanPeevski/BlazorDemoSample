@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\BlazorDemoApp.csproj": {}
+    "D:\\GitHub\\BlazorDemoSample\\BlazorDemoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\BlazorDemoApp.csproj": {
+    "D:\\GitHub\\BlazorDemoSample\\BlazorDemoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\BlazorDemoApp.csproj",
+        "projectUniqueName": "D:\\GitHub\\BlazorDemoSample\\BlazorDemoApp.csproj",
         "projectName": "BlazorDemoApp",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\BlazorDemoApp.csproj",
+        "projectPath": "D:\\GitHub\\BlazorDemoSample\\BlazorDemoApp.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\obj\\",
+        "outputPath": "D:\\GitHub\\BlazorDemoSample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",

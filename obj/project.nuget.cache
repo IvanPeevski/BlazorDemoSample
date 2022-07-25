@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+kyTVr2mIVcoI3457QrDvxC01CmS+5X+NjmKk6Gcu0HFrEfsjwMNBGEe/RkinhtreZGwrI9qi8IBeuk294VqMw==",
+  "dgSpecHash": "WlqFMrPec2YfBmFZBDn7j18mgjyfRf8/UBYb6mcdxDGCntb0/b8VkkiaBV+N66dl1r9yqAnOw30h3fAkHz6q7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\jqWidgets\\Blazor Docs\\blazor-webassembly-entity\\BlazorDemoApp\\BlazorDemoApp.csproj",
+  "projectFilePath": "D:\\GitHub\\BlazorDemoSample\\BlazorDemoApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.6\\microsoft.aspnetcore.authorization.6.0.6.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.6\\microsoft.aspnetcore.components.6.0.6.nupkg.sha512",
