@@ -1,0 +1,49 @@
+﻿@page "/"
+
+<PageTitle>Sign-up</PageTitle>
+
+<div class="container">
+        <div class="text-center my-5">
+            <h2>Welcome!</h2>
+            <CheckBox @bind-Checked="@DarkMode">Dark Mode</CheckBox>
+        </div>
+        <div class="text-center my-5">
+            <h4>Requiremnets:</h4>
+            <p>First Name is required<br />
+            Email and Phone must be valid<br />
+            Country Code must be 2 or 3 characters</p>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <div class="card shadow-5">
+                    <div class="card-body">
+                        <Form @ref="@form">
+                            <FormControl ControlType="FormControlControlType.Input" DataField="firstName" Label="First Name" ValidationRules="@firstNameRules"></FormControl>
+                            <FormControl ControlType="FormControlControlType.Input" DataField="email" Label="Email" ValidationRules="@emailRules"></FormControl>  
+                            <FormControl ControlType="FormControlControlType.Input" DataField="phone" Label="Phone" ValidationRules="@phoneRules"></FormControl>
+                            <FormControl ControlType="FormControlControlType.Input" DataField="country" Label="Country Code" ValidationRules="@countryRules"></FormControl>
+                            <FormControl ControlType="FormControlControlType.Button" DataField="submit" Label="Submit"></FormControl>
+                        </Form>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@code{
+  Form form;
+  public bool DarkMode = false;
+  dynamic[] firstNameRules = new dynamic[]{
+      new{type="required", message="First Name is required"}
+  };
+  dynamic[] emailRules = new dynamic[]{
+      new{type="email", message="Must be a valid email"}
+  };
+  dynamic[] phoneRules = new dynamic[]{
+      new{type="phone", message="Not a valid phone number"},
+      new{type="required"}
+  };
+  dynamic[] countryRules = new dynamic[]{
+      new{type="stringLength", min=2, max=3, message="Must be a valid country code"}
+  };
+}
