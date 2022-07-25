@@ -1,4 +1,17 @@
-﻿#navContainer {
+﻿body[theme='dark'] {
+    background-color: #242424;
+    color: white;
+}
+
+body[theme='dark'] .card-body{
+    background-color: #242424; 
+}
+
+    body[theme='dark'] .top-row {
+        background-color: darkgray;
+    }
+
+#navContainer {
     height: 100%;
 }
 

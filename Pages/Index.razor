@@ -5,7 +5,7 @@
 <div class="container">
         <div class="text-center my-5">
             <h2>Welcome!</h2>
-            <CheckBox @bind-Checked="@DarkMode">Dark Mode</CheckBox>
+            <CheckBox @ref="darkModeCheckBox" Id="darkModeCheckBox" OnChange="OnChange">Dark Mode</CheckBox>
         </div>
         <div class="text-center my-5">
             <h4>Requiremnets:</h4>
@@ -31,8 +31,12 @@
     </div>
 
 @code{
-  Form form;
-  public bool DarkMode = false;
+    @inject IJSRuntime JS
+    Form form;
+    CheckBox darkModeCheckBox;
+    private void OnChange(Event ev){
+        JS.InvokeVoidAsync("toggleDarkMode");
+    }
   dynamic[] firstNameRules = new dynamic[]{
       new{type="required", message="First Name is required"}
   };

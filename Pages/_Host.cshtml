@@ -7,3 +7,14 @@
 
 <component type="typeof(App)" render-mode="ServerPrerendered" />
 <link href="_content/Smart.Blazor/css/smart.default.css" rel="stylesheet" />
+<script>
+    (function (global) {
+  global.toggleDarkMode = function() {
+      setTimeout(function(){
+            const checked = document.querySelector("#darkModeCheckBox").checked;
+            console.log(checked)
+            document.body.setAttribute('theme', checked?'dark':'light');
+        }, 0)
+  }    
+})(window);
+</script>
