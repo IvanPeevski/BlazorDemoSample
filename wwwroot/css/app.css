@@ -1,9 +1,18 @@
-﻿#navContainer{
+﻿#navContainer {
     height: 100%;
 }
 
 nav {
     height: 100%;
+}
+
+
+.sidebar{
+    width: 66px !important;
+}
+
+.sidebar:hover{
+    width: 300px !important;
 }
 
 nav .smart-tree-item-label-element {
@@ -22,11 +31,27 @@ nav .smart-tree-item-label-element {
             height: 100%;
         }
 
+.smart-tree {
+    --smart-background: #011530;
+}
+
 smart-tree-items-group .smart-tree-item-label-container .smart-tree-item-label-element {
     height: 39px;
 }
 
-smart-tree-item a {
-    color: #5A5A5A !important;
+smart-tree-item{
     text-decoration: none !important;
+}
+
+smart-tree-items-group {
+}
+
+div.smart-tree-item-label-element{
+    color: white !important;
+
+}
+
+div.smart-tree-item-label-element a {
+     text-decoration: none !important;
+     color: white !important;
 }
